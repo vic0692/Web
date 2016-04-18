@@ -1,0 +1,190 @@
+*
+{
+	font-family: sans-serif, Helvetica, Lucida Sans;
+}
+
+@font-face {
+    font-family: Archive;
+    src: url(./fonts/Archive.ttf); 
+}
+
+body
+{
+	width: 860px;
+	margin: auto;
+	background: url("./img/wallhaven-346402.jpg");
+	/*background: url("./img/wallpaper-1808937.jpg");*/
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+}
+
+header.mainH
+{
+	border-radius: 5px 5px 5px 5px;
+	background-color: white; 			
+	font-size: 24px;
+	box-shadow: 3px 3px 10px #999999;
+	padding: 1px;
+	text-shadow: 1px 1px 3px black;
+	border-color: #FFA000;
+	border-width: 3px;
+	color: #A52A2A;
+}
+
+header > h1
+{
+	font-family: "Archive";
+	text-align: center;
+	padding: 5px;
+}
+
+section > article
+{
+	padding: 0px;
+	border-radius: 7px 7px 5px 5px;
+	box-shadow: 3px 3px 10px #999999;
+	background-color: white;
+}
+
+section > article > header h1
+{
+	text-shadow: 1px 1px 3px grey;
+	font-size: 18px;
+	margin: 0px;
+	border-radius: 5px 5px 2px 2px;
+	padding: 5px;
+	background-color: #A52A2A; 				
+}
+
+section > article > header h1 a
+{
+	color: white; 
+}
+
+section > article > section
+{
+	padding: 10px;
+	margin: 10px;
+	text-align: justify;
+}
+
+section > article > header h1 a:hover
+{
+	color: yellow;
+}
+
+nav > ul
+{
+	list-style: none;
+	display: block;
+	background-color: #A52A2A; 				/*КРАСНЫЙ  #A52A2A*/
+	padding:none;
+	border-radius: 10px 10px 10px 10px;
+	height: 24px;
+	clear: none;
+	box-shadow: 3px 3px 10px #999999;
+	text-decoration: underline;
+}
+
+nav > ul > li {
+    display: inline; 
+    padding: 0px 20px 5px 10px;
+    height: 24px;
+}
+ 
+nav > ul > li > a {
+    /*color: #EFD3D3;*/
+    color: white;  
+    text-shadow: 1px 1px 10 red;
+    text-decoration: none;
+    font-size: 14px; 
+    font-weight: bold;
+}
+ 
+nav > ul > li > a:hover 
+{
+    color: yellow;
+    text-decoration: underline;
+}
+
+section.form
+{
+	border-radius: 8px 8px 8px 8px;
+	border-width: 2px;
+	box-shadow: 3px 3px 10px #999999;
+	background-color: white;
+}
+
+section.form > header
+{
+	color: white;
+	text-shadow: 1px 1px 3px grey;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 5px 5px 0 0;
+	background-color: #A52A2A;				/*ЖЕЛТЫЙ  #FFA000*/
+}
+
+section.form > header h1
+{
+	font-size: 18px;
+	font-family: sans-serif, Helvetica, Lucida Sans;
+}
+
+section > form
+{
+	margin: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	display: block;
+	border-width: 2px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+section > form > input
+{
+	margin-bottom: 3px; 
+	font-size: 12px;
+	padding: 2px;
+}
+
+footer
+{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	text-decoration: underline;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #A52A2A;				/*ЖЕЛТЫЙ  #FFA000*/
+	padding: 1px;
+	box-shadow: 3px 3px 10px #999999;
+}
+
+#container
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	/*padding: 0px 0px 0px 100px;*/
+}
+
+#bLabel
+{
+	float: left;
+	width: 200px;
+}
+
+#bInput
+{
+	float:left;
+	width: 500px;
+}
+
+.block
+{
+	height:25px;
+}
